@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <meta name="keywords" content="metcalfe, firewood, heating, wood, cord">
+    <meta name="description" content="Metcalfe Firewood">
+    <title>Metcalfe Firewood</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Metcalfe Firewood</h1>
+      <img src="img/banner.jpg" alt="firewood">
+      <p><em>Quality Firewood for Cozy Nights</em></p>
+      <h2>Why Choose Metcalfe Firewood?</h2>
+      <ul>
+        <li>Locally Sourced: Our firewood comes from sustainable sources in the local area, ensuring premium quality and minimal environmental impact.</li>
+        <li>Seasoned and Ready: Our firewood is properly seasoned, guaranteeing optimal burn and maximum heat output for your comfort and enjoyment.</li>
+        <li>Reliable Service: At Metcalfe Firewood, customer satisfaction is our top priority. Count on us for prompt delivery and friendly service every time.</li>
+      </ul>
+      <h2>Get a Quote Today</h2>
+      <div class="contact-info">
+        <p>Ready to stock up on firewood for the season? Contact Gavin Metcalfe for a personalized quote tailored to your needs:</p>
+        <p>
+        <ul>
+          <li><a data-proto="tel:" data-info="4630-304-316" title="Enable Javascript to see this phone number" class="mangled">[number hidden]</a></li>
+          <li><a data-proto="mailto:" data-info="moc.liamg@eflactem.m.nivag" title="Enable Javascript to see this email" class="mangled">[email hidden]</a></li>
+        </ul>
+        </p>
+      </div>
+      <h2>More</h2>
+      <div class="youtube-link">
+        <p>Check out our YouTube channel: <a href="https://www.youtube.com/@MetcalfeFirewood597/" target="_blank">Metcalfe Firewood</a></p>
+        <iframe src="https://www.youtube.com/embed/?list=UULF39Z9UNSNKLXw9ntOwnRazg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    (function () {
+      let e = document.querySelectorAll(".mangled");
+      for (var i = 0; i < e.length; i++) {
+        let info = e[i].getAttribute("data-info")
+        if (info) {
+          let decoded = info.split("").reverse().join("");
+          let proto = e[i].getAttribute("data-proto")
+          e[i].href = proto + decoded;
+          e[i].removeAttribute("data-info");
+          e[i].removeAttribute("data-proto");
+          e[i].removeAttribute("title");
+          e[i].removeAttribute("class");
+          e[i].innerHTML = decoded;
+        }
+      }
+    })()
+  </script>
+</html>
